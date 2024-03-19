@@ -1,0 +1,29 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1, div{
+    text-align: center;
+}
+.p_1{
+    border: 2px dotted red;
+}
+.p_2{
+    border: 5px inset green;
+}
+span{
+    background-color: lime;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-left: 100px;
+}
+div{
+    border: 3px solid red;
+    background-color: pink;
+    border-radius: 50px;
+}
+.div_1{
+    margin-top: 50px;
+}
+.div_2{
+    margin-top: -20px;
+}

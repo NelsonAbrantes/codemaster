@@ -1,0 +1,55 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    text-align: center;
+}
+div{
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: justify;
+}
+.text{
+    width: 200px;
+    height: 170px;
+}
+.image{
+    width: 250px;
+    height: 250px;
+}
+#red{
+    background-color: red;
+    overflow: visible;
+    margin-bottom: 60px;
+}
+#green{
+    background-color: green;
+    overflow: auto;
+}
+#blue{
+    background-color: blue;
+    overflow: scroll;
+}
+#pink{
+    background-color: pink;
+   margin-bottom: 400px;
+}
+#lightgreen{
+    background-color: lightgreen;
+    overflow: auto;
+}
+#lightblue{
+    background-color: lightblue;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+#orange{
+    background-color: orange;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#purple{
+    background-color: purple;
+    overflow: hidden;
+}

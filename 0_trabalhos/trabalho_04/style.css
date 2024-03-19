@@ -1,0 +1,112 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Courier;
+  color: white;
+  text-align: center;
+}
+body {
+  background-color: black;
+}
+header {
+  background-color: green;
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.titulo{
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+nav {
+  width: 50%;
+  border: 2px solid white;
+  border-radius: 30px;
+  padding: 15px 100px;
+  font-size: 19px;
+}
+h1{
+  padding-top: 20px;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: yellow;
+}
+.card_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  padding: 50px;
+}
+.card {
+  width: 300px;
+  background-color: rgba(0, 255, 0, 25%);
+  border: 3px solid rgb(0, 255, 0);
+  border-radius: 20px;
+  margin: 20px;
+}
+.card img {
+  width: 100%;
+  height: 65%;
+}
+.card p, h3 {
+  padding: 10px;
+  text-align: center;
+}
+footer {
+  padding: 15px;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  position: relative;
+  bottom: 0;
+  background-color: green;
+}
+.card:hover {
+  border: 3px solid rgb(255, 255, 0);
+  background-color: rgba(255, 255, 0, 75%);
+}
+.sinopse{
+  margin: 50px auto;
+  width: 60%;
+}
+.sinopse_img{
+  width: 400px;
+  height: 550px;
+  border: 3px solid rgb(0, 255, 0);
+  border-radius: 20px;
+  margin-top: 20px;
+}
+button{
+  width: 120px;
+  height: 60px;
+  background-color: rgba(0, 255, 0, 25%);
+  border: 3px solid rgb(0, 255, 0);
+  border-radius: 20px;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+button:hover{
+  border: 3px solid rgb(255, 255, 0);
+  background-color: rgba(255, 255, 0, 75%);
+  cursor: pointer;
+}
+@media all and (width <=800px){
+  .card{
+    overflow: hidden;
+    width: 300px;
+    background-color: rgba(255, 0, 0, 25%);
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 0px;
+  }
+  nav{
+    width: 90%;
+  }
+
+}

@@ -1,0 +1,19 @@
+
+body{
+    background-image: url("lisboa_01.jpg");
+    background-size: cover;
+    height: 985px;
+}
+h1{
+    text-align: center;
+    font-family: Georgia;
+}
+h3{
+    text-align: center;
+    color: red;
+}
+p{
+    text-align: justify;
+    color: yellow;
+    border: 5px double black;
+}

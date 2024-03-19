@@ -1,0 +1,127 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+#header{
+    display: flex;
+    justify-content: flex-end;
+}
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+li{
+    text-align: center;
+    padding: 10px;
+}
+li a:hover{
+    text-decoration: underline;
+}
+.header_text{
+    text-decoration: none;
+    color: black;
+}
+.small_text{
+    font-size: 13px;
+}
+.menu{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+.menu:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+#google{
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+}
+#search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+input{
+    width: 500px;
+    height: 40px;
+    border-radius: 30px;
+    padding-left: 40px;
+    font-size: 16px;
+    border: 1px solid lightgray;
+}
+input:hover{
+    box-shadow: 0 1px 1px 1px rgba(207, 209, 211, 0.5);
+}
+input:focus{
+    outline: none;
+}
+#lupa{
+    width: 20px;
+    position: absolute;
+    left: 240px;
+    top: 403px;
+}
+#mic{
+    position: absolute;
+    left: 720px;
+    top: 400px;
+}
+#keyboard{
+    position: absolute;
+    left: 680px;
+    top: 404px;
+}
+button{
+    border: 1px solid transparent;
+    padding: 6px 10px ;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+button:hover{
+    box-shadow: 0 0 2px 1px rgba(168, 170, 173, 0.5);
+    cursor: pointer;
+}
+#dispo{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 30px;
+}
+#footer{
+    margin-top: 140px;
+    width: 100%;
+    color: rgb(104, 101, 101);
+    background-color: rgba(230, 230, 230, 0.623);
+}
+#local{
+    height: 50px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(202, 202, 202, 0.452);
+}
+#leaf_size{
+    width: 14px;
+}
+#leaf{
+    text-align: center;
+    padding-top: 15px;
+}
+#footer_bot{
+display: flex;
+justify-content: space-between;
+padding: 20px 70px 13px;
+}
+.links{
+    text-decoration: none;
+    color: rgb(104, 101, 101);
+}
+
+

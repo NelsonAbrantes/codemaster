@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Inter:wght@100..900&family=Playpen+Sans:wght@100..800&display=swap");
+
+body {
+  font-family: "Playpen Sans";
+}
+h1 {
+  text-align: center;
+}
+div {
+  border: 3px solid black;
+  width: 500px;
+  padding: 10px;
+  margin: 30px auto;
+  font-size: 22px;
+  text-align: justify;
+  background-color: lightgreen;
+}
+#selection::selection {
+  color: red;
+  background-color: yellow;
+}
+#marker ::marker {
+  color: red;
+}
+#first_letter::first-letter {
+  color: red;
+  background-color: yellow;
+  font-size: 36px;
+}
+#first_line::first-line {
+  color: red;
+  background-color: yellow;
+}
+.before::before {
+  content: url("bob_mini.jpg");
+}
+.after::after {
+  content: ")";
+}

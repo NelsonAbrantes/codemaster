@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+body > div{
+    border: 3px solid black;
+    margin: 40px auto;
+    padding: 20px;
+    width: 500px;
+    background-color: lightgreen;
+}
+.filho{
+    border: 2px solid black;
+    margin: 10px ;
+    padding: 10px;
+    background-color: white;
+}
+
+#pai_1 > .filho_1:hover ~ .filho_5{
+    background-color: red;
+}
+#pai_2 > .filho_5:hover ~ .filho_1{
+    background-color: red;
+}
+#pai_3 > .filho:hover ~ .filho{
+    background-color: red;
+}

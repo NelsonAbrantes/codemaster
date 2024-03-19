@@ -1,0 +1,61 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+body > div {
+    display: flex;
+    border: 5px solid black;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin: 50px auto;
+    font-size: 22px;
+    background-color: lightgreen;
+}
+body > div > div{
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+    background-color: coral;
+}
+#pai_1{
+    flex-direction: row;
+}
+#pai_2{
+    flex-direction: column;
+}
+#pai_3{
+    flex-direction: row-reverse;
+}
+#pai_4{
+    flex-direction: column-reverse;
+}
+#pai_5{
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#pai_6{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#pai_7{
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+#pai_8{
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+#pai_9{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#pai_10{
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+}
+#pai_11{
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}

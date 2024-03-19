@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+}
+div {
+  height: 400px;
+  width: 400px;
+  border: 3px solid black;
+  border-radius: 20px;
+  background-color: green;
+  margin: auto;
+}
+
+@media all and (width <= 900px) {
+  div {
+    background-color: blue;
+  }
+}
+
+@media all and (width <= 700px) {
+  div {
+    background-color: red;
+  }
+}

@@ -1,0 +1,19 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.aqua{
+    background-color: aqua;
+}
+.span_1{
+    color: red;
+    font-size: 22px;
+}
+.brown{
+    background-color: brown;
+    color: white;
+}
+.span_2{
+    color: yellow;
+    font-size: 10px;
+    
+}

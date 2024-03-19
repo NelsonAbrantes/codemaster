@@ -1,0 +1,66 @@
+body{
+    margin: 0px;
+}
+p{
+    color: white;
+    font-size: 22px;
+    padding: 70px 0 0 10px;
+}
+#sky{
+    background-color: lightskyblue;
+    padding: 50px;
+}
+#sun{
+    height: 300px;
+    width: 300px;
+}
+#ground{
+    background-color: rgb(90, 55, 20);
+    margin-top: -100px;
+    padding-bottom: 5px;
+}
+.cloud_row1{
+    height: 100px;
+    width: 150px;
+    margin: 0px 300px;
+}
+.cloud_row2{
+    height: 100px;
+    width: 150px;
+    margin: 0px 400px;
+}
+.cloud_row3{
+    height: 100px;
+    width: 150px;
+    margin: 0px 200px;
+}
+.cloud_row4{
+    height: 100px;
+    width: 150px;
+    margin: 0px 600px;
+}
+.tree_small{
+    height: 250px;
+    width: 200px;
+    padding-right: 10px;
+}
+.tree_big{
+    height: 350px;
+    width: 300px;
+    padding-right: 10px;
+}
+#tree_med{
+    height: 300px;
+    width: 250px;
+    padding-right: 10px;
+}
+#tree_extrabig{
+    height: 400px;
+    width: 300px;
+    padding-right: 10px;
+}
+#tree_extrasmall{
+    height: 200px;
+    width: 150px;
+    padding-right: 10px;
+}                                                   

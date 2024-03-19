@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div{
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    margin: 30px auto;
+} 
+#div_1{
+    background: radial-gradient( red, yellow)
+}
+#div_2{
+    background: radial-gradient(closest-side, red, yellow);
+}
+#div_3{
+    background: radial-gradient(closest-corner, red, yellow);
+}
+#div_4{
+    background: radial-gradient(farthest-side, red, yellow);
+}
+#div_5{
+    background: radial-gradient(farthest-corner, red, yellow);
+}
+#div_6{
+    background: radial-gradient(circle at top left, blue, coral);
+}
+#div_7{
+    background: radial-gradient(circle at top right, blue, coral);
+}
+#div_8{
+    background: radial-gradient(circle at bottom left, blue, coral);
+}
+#div_9{
+    background: radial-gradient(circle at bottom right, blue, coral);
+}
+#div_10{
+    background: radial-gradient(circle at 50% 0%, red, white, green,yellow);
+}
+#div_11{
+    background: radial-gradient(circle at 68% 75%, red, white, green,yellow);
+}
+#div_12{
+    background: radial-gradient(ellipse at 68% 75%, black, aqua, red);
+    width: 600px;
+    height: 300px;
+}
+#div_13{
+    background: radial-gradient(red 0% 25%, yellow 25% 50%, green 50% 75%, blue 75% 100%);
+}
+#div_14{
+    background: radial-gradient(circle at top left, rgba(192, 9, 146, 0.295),rgba(12, 223, 117, 0.356),rgba(216, 22, 223, 0.452)),
+    radial-gradient(circle at top right, rgba(84, 8, 224, 0.342),rgba(179, 255, 0, 0.452),rgba(231, 235, 11, 0.356)),
+    radial-gradient(circle at bottom left, aquamarine,black,pink);
+}
+#div_15{
+    background: radial-gradient( circle at top left, rgba(255, 0, 191, 0.377),rgba(15, 235, 63, 0.342),rgba(4, 235, 243, 0.342)),
+    linear-gradient(to bottom , yellow,white,red);
+}

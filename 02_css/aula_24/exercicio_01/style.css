@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    
+}
+.amarelo{
+    border: 5px dotted rgb(255, 0, 0);
+    font-size: 12px;
+    color: rgb(0, 0, 255);
+    background-color: rgb(255, 255, 0);
+}
+.vermelho{
+    border: 5px dotted rgb(255, 255, 0);
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+}

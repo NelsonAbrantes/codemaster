@@ -1,0 +1,97 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+div {
+  background-color: lightgreen;
+  border: 2px solid black;
+  height: fit-content;
+  width: 400px;
+  padding: 10px;
+  margin: 20px auto;
+}
+input {
+  text-align: center;
+}
+.text {
+  text-align: justify;
+  transition-duration: 1s;
+}
+#hover_1, #active_1 {
+  text-align: justify;
+}
+#hover_1:hover {
+  background-color: aqua;
+  font-size: 20px;
+  border-radius: 20px;
+}
+#hover_2:hover {
+  background-color: aqua;
+  font-size: 20px;
+  border-radius: 20px;
+}
+#active_1:active {
+  background-color: aqua;
+  font-size: 20px;
+  border-radius: 20px;
+}
+#active_2:active {
+  background-color: aqua;
+  font-size: 20px;
+  border-radius: 20px;
+}
+#focus_1:focus {
+  background-color: aqua;
+}
+#focus_2:focus {
+  background-color: aqua;
+  transition-duration: 2s;
+}
+a:link {
+  color: white;
+}
+a:visited {
+  color: red;
+}
+#button_1 button:first-child {
+  background-color: red;
+}
+#button_2 button:last-child {
+  background-color: red;
+}
+#button_3 button:nth-child(3) {
+  background-color: red;
+}
+#button_4 button:nth-child(odd) {
+  background-color: red;
+}
+#button_5 button:nth-child(even) {
+  background-color: red;
+}
+#button_6 button:nth-child(3n) {
+  background-color: red;
+}
+#lang_1:lang(pt) {
+  background-color: red;
+}
+#lang_2:lang(en) {
+  background-color: red;
+}
+input:autofill {
+  border: 4px solid violet;
+}
+input:disabled {
+  border: 3px solid red;
+}
+#enabled:enabled {
+  border: 3px solid blue;
+}
+#readonly:read-only {
+  border: 3px solid gold;
+}
+#placeholder:placeholder-shown{
+  border: 3px solid orange;
+}
+input:checked{
+    outline: 3px solid red;
+}

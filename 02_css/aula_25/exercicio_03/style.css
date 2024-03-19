@@ -1,0 +1,15 @@
+div{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.aquamarine{
+    background-color: aquamarine;
+}
+.violet{
+    background-color: rebeccapurple;
+    color: violet;
+    text-align: center;
+}
+.coral{
+    background-color: coral;
+    text-align: right;
+}

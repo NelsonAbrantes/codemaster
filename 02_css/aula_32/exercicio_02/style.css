@@ -1,0 +1,49 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+h1{
+    text-align: center;
+}
+div{
+    border: 2px solid black;
+    margin: 20px 0px;
+}
+#percentagem{
+    width: 50%;
+    background-color: red;
+}
+#vw{
+    width: 50vw;
+    background-color: green;
+    color: white;
+}
+#vh{
+    width: 50vh;
+    background-color: blue;
+    color: white;  
+}
+#vmin{
+    width: 50vmin;
+    background-color: yellow;
+}
+#vmax{
+    width: 50vmax;
+    background-color: orange; 
+}
+#em{
+    width: 50em;
+    background-color: violet;  
+}
+#rem{
+    width: 50rem;
+    background-color: purple;  
+}
+#ch{
+    width: 50ch;
+    background-color: aqua;  
+}
+#ex{
+    width: 50ex;
+    background-color: coral;  
+}

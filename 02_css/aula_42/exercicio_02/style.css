@@ -1,0 +1,30 @@
+div{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+}
+body > div{
+    background-color: lightgreen;
+    margin: auto;
+    width: 500px;
+    border: 3px solid black;
+}
+#pai_1 > div{
+    background-color: red;
+}
+#pai_2  div{
+    background-color: red;
+}
+#pai_3 > div > button{
+    background-color: red;
+}
+#pai_4 > div > div > button{
+    background-color: red;
+}
+#pai_5 button{
+    background-color: red;
+}
+#pai_6  *{
+    background-color: red;
+}

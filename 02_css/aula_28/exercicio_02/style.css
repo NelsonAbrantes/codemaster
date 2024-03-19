@@ -1,0 +1,12 @@
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.div_1{
+    background-color: aquamarine;
+    padding: 100px;
+}
+.div_2{
+    background-color: greenyellow;
+    padding: 10px;
+    margin: 100px;
+}

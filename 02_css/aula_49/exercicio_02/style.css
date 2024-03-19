@@ -1,0 +1,33 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1, h3 {
+    text-align: center;
+}
+div {
+    border: 2px solid black;
+    width: 150px;
+    min-height: 150px;
+    margin: 100px auto;
+    padding: 10px;
+    background-color: lightgreen;
+    text-align: justify;
+}
+#div_1{
+    transform: rotate(45deg);
+}
+#div_2{
+    transform: rotate(0.1225turn);
+}
+#div_3{
+    transform: translate(400px, -100px);
+}
+#div_4{
+    transform: scale(50%);
+}
+#div_5{
+    transform: scale(200%);
+}
+#div_6{
+    transform: skew(45deg, 0deg);
+}

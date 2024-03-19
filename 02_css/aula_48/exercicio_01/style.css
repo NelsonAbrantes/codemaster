@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    text-align: center;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div{
+    border: 3px solid black;
+    width: 600px;
+    padding: 20px;
+    margin: 30px auto;
+    font-size: 32px;
+    font-family: "Inter";
+}
+#weight_1{
+    font-weight: 100;
+    background-color: lightgreen;
+}
+#weight_2{
+    font-weight: 200;
+    background-color: lightgreen;
+}
+#weight_3{
+    font-weight: 300;
+    background-color: lightgreen;
+}
+#weight_4{
+    font-weight: 400;
+    background-color: lightgreen;
+}
+#weight_5{
+    font-weight: 500;
+    background-color: lightgreen;
+}
+#weight_6{
+    font-weight: 600;
+    background-color: lightgreen;
+}
+#weight_7{
+    font-weight: 700;
+    background-color: lightgreen;
+}
+#weight_8{
+    font-weight: 800;
+    background-color: lightgreen;
+}
+#weight_9{
+    font-weight: 900;
+    background-color: lightgreen;
+}
+#style_1{
+    font-style: normal;
+    background-color: lightblue;
+}
+#style_2{
+    font-style: italic;
+    background-color: lightblue;
+}
+#style_3{
+    font-style: oblique 14deg;
+    background-color: lightblue;
+}
+#transform_1{
+    text-transform: none;
+    background-color: palevioletred;
+}
+#transform_2{
+    text-transform: lowercase;
+    background-color: palevioletred;
+}
+#transform_3{
+    text-transform: uppercase;
+    background-color: palevioletred;
+}
+#transform_4{
+    text-transform: capitalize;
+    background-color: palevioletred;
+}

@@ -1,0 +1,81 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+body > div {
+  display: flex;
+  border: 5px solid black;
+  width: 400px;
+  height: 250px;
+  margin: 50px auto;
+  font-size: 20px;
+  background-color: lightgreen;
+}
+body > div > div {
+  border: 2px solid black;
+  padding: 5px;
+  background-color: coral;
+}
+#pai_1 {
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+#pai_2 {
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+#pai_3 {
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+#pai_4 {
+  flex-wrap: wrap;
+  align-content: center;
+}
+#pai_5 {
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+#pai_6 {
+  flex-wrap: wrap;
+  align-content: space-evenly;
+}
+#pai_7 {
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+#pai_8 {
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+#pai_9 {
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+#pai_10 {
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+#pai_11 {
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+#pai_12 {
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+#pai_13 {
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+}
+#pai_14 {
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
