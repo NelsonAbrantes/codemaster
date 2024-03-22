@@ -14,7 +14,7 @@ resto = x % y
 print("\n")
 
 print("=== Operações Aritméticas ===")
-print("\nX =(8) \nY = (3) \n")
+print("\nX = (8) \nY = (3) \n")
 
 print("Soma = (" + str(soma) + ")")
 print("Subtração = (" + str(sub) + ")")
