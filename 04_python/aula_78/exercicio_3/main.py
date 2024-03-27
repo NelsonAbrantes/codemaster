@@ -1,6 +1,6 @@
-
 import math
 
+print()
 nome = input(" Digite o nome do aluno(a): ")
 nota1 = int(input(" Digite a nota da prova 1: "))
 nota2 = int(input(" Digite a nota da prova 2: "))

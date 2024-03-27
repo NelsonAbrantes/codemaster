@@ -1,6 +1,6 @@
-
 import math
 
+print()
 valor = int(input(" Digite um número: "))
 cubo = valor ** 3
 
