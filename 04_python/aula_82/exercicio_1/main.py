@@ -1,8 +1,13 @@
-print()
+from funcoes import *
 
+
+limpar()
 print("INICIO")
+aguardar(time)
 
-pergunta_1 = float(input("Tens carro?"))
+limpar()
+
+pergunta_1 = input("Tens carro? ")
 
 if(pergunta_1.lower() == "sim"):
     pergunta_2 = input(" Qual é a cor? ")
@@ -10,7 +15,7 @@ if(pergunta_1.lower() == "sim"):
         print("vai a festa.")
     elif(pergunta_2.lower() == "verde"):
         print("vai acampar")
-        pergunta_3 = input(" está a chover?")
+        pergunta_3 = input(" está a chover? ")
         if(pergunta_3.lower() == "sim"):
             print("Levas chapeu de chuva.")
         else:
@@ -18,7 +23,7 @@ if(pergunta_1.lower() == "sim"):
     else:
         print("vai a praia.")
 else:
-    pergunta_4 = input(" Tens uma mota?")
+    pergunta_4 = input(" Tens uma mota? ")
     if(pergunta_4.lower() == "sim"):
         print("Usa a tua mota")
     else:
