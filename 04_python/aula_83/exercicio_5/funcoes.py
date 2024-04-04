@@ -1,7 +1,9 @@
 import os
 import time
 
-def esperar():
+#-- funcoes --
+
+def analisar():
     tempo = 0.8
     limpar()
     print("A analisar.")
@@ -27,8 +29,7 @@ def candidatura(idade, conhecimentos):
     else:
         return "Erro nos dados informados, tente novamente".upper()
     
-    
-
+       
 #-- funcoes especiais --
 def limpar():
     if(os.name == "nt"): os.system("cls")
