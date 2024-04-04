@@ -2,7 +2,9 @@ from funcoes import *
 
 
 limpar()
+
 print("INICIO")
+
 aguardar(time)
 
 limpar()
