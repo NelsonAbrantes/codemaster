@@ -1,7 +1,8 @@
 import os
 import time
 
-
+def resultado(valor, anterior):
+    
 
 
 

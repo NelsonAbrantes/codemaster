@@ -9,5 +9,6 @@ conhecimentos = input(" Tem conhecimentos em programação? ")
 limpar()
 analisar()
 
-print("=== Ficha de candidatura ===\n")
-print(f"Nome: ( {nome} )\nidade: ( {idade} )\nStatus da candidatura: ( {candidatura(idade, conhecimentos)} )")
+print("\n=== Ficha de candidatura ===\n")
+print(f"Nome: ( {nome} )\nidade: ( {idade} )\nStatus da candidatura: ( {candidatura(idade, conhecimentos)} )\n")
+
