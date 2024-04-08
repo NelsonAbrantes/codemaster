@@ -11,6 +11,6 @@ analisar()
 
 print("\n")
 
-print(f"Comprou ( {quantidade} ) maças pelo preço todal de ( {macas(quantidade)} )")
+print(f"Comprou ( {quantidade} ) maças pelo preço todal de ( {macas(quantidade):.2f} )")
 
 print("\n")
