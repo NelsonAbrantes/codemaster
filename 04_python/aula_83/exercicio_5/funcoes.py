@@ -20,11 +20,11 @@ def candidatura(idade, conhecimentos):
 
     if(idade >= 18 and conhecimentos.lower() == "sim"):
         return "Aprovado para estágio".upper()
-    elif(idade <= 18 and conhecimentos.lower() == "sim"):
+    elif(idade < 18 and conhecimentos.lower() == "sim"):
         return "Aprovado para escola de Programadores".upper()
     elif(idade >= 18 and conhecimentos.lower() == "nao"):
         return "Não Aprovado para estágio".upper()
-    elif(idade <= 18 and conhecimentos.lower() == "nao"):
+    elif(idade < 18 and conhecimentos.lower() == "nao"):
         return "Não aprovado para escola de programadores".upper()
     else:
         return "Erro nos dados informados, tente novamente".upper()

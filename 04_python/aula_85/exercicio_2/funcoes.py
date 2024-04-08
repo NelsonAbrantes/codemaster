@@ -1,17 +1,12 @@
 import os
 import time
-import math
+
 
 #-- funções --
-def resultado(valor):
 
-    x = valor - 1
-    return x
-
-
-
-
-
+def percentagem(salario, aumento):
+    resultado = salario * (1 + aumento / 100)
+    return resultado
 
 #-- funcoes especiais --
 

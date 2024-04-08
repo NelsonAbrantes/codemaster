@@ -1,14 +1,12 @@
 import os
 import time
-import math
+
 
 #-- funções --
-def resultado(valor):
 
-    x = valor - 1
-    return x
-
-
+def calcular_percentagem(total, valor):
+    resultado = (valor / total) * 100
+    return resultado
 
 
 

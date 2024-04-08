@@ -1,14 +1,10 @@
 import os
 import time
-import math
 
-#-- funções --
-def resultado(valor):
+def arearetangulo(altura , base):
 
-    x = valor - 1
-    return x
-
-
+    area = base * altura
+    print(f"A área do retângulo é de {area}")
 
 
 
