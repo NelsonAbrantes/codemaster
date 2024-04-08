@@ -6,14 +6,10 @@ import time
 
 def macas(quantidade):
 
-    meia_duzia = 1.30
-    duzia = 1.00
-
     if quantidade <= 12:
         return quantidade * 1.30
     else:
         return quantidade * 1.00
-
 
 
 #-- funcoes especiais --
