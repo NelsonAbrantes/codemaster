@@ -3,9 +3,16 @@ import time
 
 #-- funções --
 
-def mediafinal(n1, n2, n3):
-    media = (n1 * 2 + n2 * 3 + n3 * 5) / 10
-    return media
+def tempo(inicio, fim):
+    
+    duracao = fim - inicio
+
+    if(duracao == 0):
+        return print("A duração foi de 24 horas.")
+    elif(duracao > 24):
+        return print("A duraçao nao pode ultrapassar as 24 Horas")
+    else:
+        return print(f"A duração foi de {duracao} horas")
 
 #-- funcoes especiais --
 

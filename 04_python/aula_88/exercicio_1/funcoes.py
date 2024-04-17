@@ -3,9 +3,14 @@ import time
 
 #-- funções --
 
-def mediafinal(n1, n2, n3):
-    media = (n1 * 2 + n2 * 3 + n3 * 5) / 10
-    return media
+def valorFinal (combustivel, quantidade):
+    alcool = 2.90
+
+    if(combustivel == "a"):
+        if(quantidade <= 20):
+            desconto = alcool * (0.97)
+        else: desconto = alcool * (0.95)    
+       
 
 #-- funcoes especiais --
 
