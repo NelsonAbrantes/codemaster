@@ -1,0 +1,120 @@
+
+
+
+.t1{
+    font-family: "plex sans bold";
+    font-size: 25px;
+    text-transform: uppercase;
+    color: rgb(77, 77, 77);
+}
+p{
+    font-family: "plex sans light";
+    font-size: 13px;
+    color: rgb(77, 77, 77);
+    text-align: left;
+}
+.banner-title{
+    font-family: "plex sans light";
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: left;
+    color: rgb(77, 77, 77); 
+}
+.titulo{
+    font-family: "plex sans bold";
+    font-size: 35px;
+    text-transform: uppercase;
+    color: rgb(77, 77, 77);
+}
+.menus{
+    font-family: "lato";
+    font-size: 18px;
+    text-transform: uppercase;
+    color: rgb(77, 77, 77);
+    
+}
+.menus:hover{
+    color: rgb(180, 125, 51);
+}
+.submenus{
+    font-family: "plex sans";
+    font-size: 13px;
+    text-transform: uppercase;
+    color: rgb(77, 77, 77);
+}
+.submenus:hover{
+    color: rgb(177, 126, 59);
+}
+nav{
+    padding-top: 52px;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+}
+#carousel_1{
+    position: relative;
+    top: 0px;
+}
+.carousel-image{
+    width: 100%;
+    height: 750px;
+}
+.dropdown-menu{
+    padding: 25px 30px 35px;
+}
+.carousel-indicators button {
+    width: 20px!important;
+    height: 20px!important;
+    position: relative;
+    right: 400px;
+    bottom: 80px;
+    border-radius: 50%;
+    border: 1px solid rgb(112, 112, 112)!important;
+    background-color: rgba(0, 0, 0, 0)!important;
+}
+.carousel-indicators .active {
+    background-image: url("images/SVG/bolabanner2.svg");
+}    
+.carousel-item img{
+    width: 1280px;
+    height: 730px;
+}
+hr{
+    border: 1px solid rgb(112, 112, 112);
+    margin: 15px 55px;
+}
+.destaques{
+    position: relative;
+    bottom: 140px;
+}
+.button{
+    width: 120px;
+    height: 30px;
+    border: none;
+    background-image: url("images/SVG/sabermais1.svg");
+}
+.button:hover{
+    background-image: url("images/SVG/sabermais2.svg");
+}
+.bemvindo{
+    background-color: white;
+    width: 1190px;
+    height: 538px;
+    box-shadow: 5px 3px 20px ;
+    position: relative;
+    top: -45px;
+    left: 10px;
+}
+#tony{
+    margin: 60px;
+    height: 420px;
+}
+#t-bemvindo{
+    padding-top: 80px;
+}
+#p-bemvindo{
+    margin-top: 30px;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 5px;
+}
