@@ -1,5 +1,4 @@
 import os
-import re
 import time
 import globais
 
@@ -12,16 +11,18 @@ def exibirMenu():
     print("2 - Editar produto.")
     print("3 - Apagar produto.")
     print("4 - Lista de produtos.\n")
+    print("5 - Vender.")
+    print("6 - Listar vendas.\n")
     print("0 - Sair.\n")
     return int(input("Opção: "))
 
 def registo():
-    print("--- Registar Produto---\n")
+    print("--- Registar Prato---\n")
     nome = input(" Digite o NOME do novo produto: ")
     preco = float(input(" Digite o PREÇO deste produto: "))
     quantidade = int(input(" Digite a quantidade deste produto: "))
     globais.produtos.append(novoProduto(nome, preco, quantidade))
-    print("\n--- SUCESSO! ---")
+    print("--- SUCESSO! ---")
 
 def editar():  
     lista()
@@ -73,10 +74,10 @@ def apagar():
     else:
         print("--- DADOS INVÁLIDOS ---\n")
 
+
 def lista():
     print("--- Lista de produtos registados ---\n")    
     for i in range(len(globais.produtos)): exibirProduto(i)
-  
    
 # Helpers
 
@@ -96,7 +97,7 @@ def novoProduto(nome, preco, quantidade):
 
 def exibirProduto(id):
     p = globais.produtos[id]
-    print(f"#{id + 1} - NOME: ({p['nome']}) | preço: ({p['preco']:.2f}€) | quantidade: ({p['quantidade']})")
+    print(f"ID: ( {id + 1} ) | NOME: ( {p['nome']} ) | preço: ( {p['preco']:.2f} €) | quantidade: ( {p['quantidade']} )")
 
 def verificarProdutoDuplicado(novo_nome):
     for n in globais.produtos:

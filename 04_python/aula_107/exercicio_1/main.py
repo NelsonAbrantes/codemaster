@@ -14,11 +14,14 @@ while(True):
         apagar()
     elif(opcao == 4):
         lista()
+    elif(opcao == 5):
+        vender()
+    elif(opcao == 6):
+       historicoVendas()        
     elif(opcao == 0):
         sair()
         break    
     else:
         print("--- DADOS INVALIDOS --- ")
-    
     print()
     enter()
