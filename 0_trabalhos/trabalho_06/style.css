@@ -46,7 +46,7 @@ p{
     color: rgb(177, 126, 59);
 }
 
-/* Pessoais */
+/* Gerais */
 
 body{
     overflow-x: hidden;
@@ -68,6 +68,9 @@ nav{
 .dropdown-menu{
     border-radius: 0px;
     padding: 25px 5px 35px ;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
 }
 .carousel-indicators button {
     width: 20px!important;

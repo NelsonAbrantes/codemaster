@@ -1,0 +1,438 @@
+                         
+                            /* Header */
+
+/* navbar */
+
+.menus_top{
+    color: #333333;
+    font-family: "Poppins-Medium";
+    font-size: 14px;
+    margin-right: 15px !important;
+    padding: 0px 0px 24px !important;
+    text-wrap: nowrap;
+}    
+
+/* .menus_top:hover{
+    border-bottom: 6px solid #333333;
+    padding-bottom: 17px !important;
+    color: #333333;
+} */
+.submenus{
+    color: white;
+    font-family: "Poppins-Regular";
+    font-size: 14px;
+    width: 238px;
+    height: 60px;
+    padding: 14px 23px;
+}
+.dropdown-menu{
+    background-color: rgba(51, 51, 51, 0.91);
+    border-radius: 0px;
+}
+.submenus:hover{
+    background-color: rgba(51, 51, 51, 0.91) !important;
+    color: white;
+    font-family: "Poppins-Bold";
+    font-size: 16px;
+}
+.nav_top{
+    padding-top: 77px;
+}
+#top_header{
+    box-shadow: 0px 6px 15px #333333;
+    height: 121px;
+}
+.logo{
+    width: 255px;
+    height: 69px;
+    margin: 26px 78px;
+}
+nav{
+    z-index: 10;
+}
+.navbar-toggler{
+    margin: auto;
+    border: none;
+    position: absolute;
+    left: 275px;
+    top: 50px;
+}
+/* Carousel */
+
+.carousel-item{
+    z-index: -10;
+}
+.imagem_carousel{
+    width: 1600px;
+    height: 645px;
+}
+.carousel-indicators button{
+    width: 71px !important;
+    height: 13px !important;
+    opacity: 1 !important;
+}
+.carousel-indicators .active {
+    background-color: #F9963B;
+}
+
+                                /* Main */
+                             
+/* separadores */
+
+.separador{
+    width: 78px;
+    border-bottom: 3px solid #F9963B;
+    margin: auto;
+    margin-bottom: 46px;
+}
+#separador_contactos{
+    width: 78px;
+    border-bottom: 3px solid #ffffff;
+    margin: auto;
+    margin-bottom: 45px;
+    margin-top: 132px;
+}
+.separador_dropdown{
+    margin: 0px;
+    color: white;
+}
+
+/* area bem vindo */
+
+.bem-vindo{
+    height: 669px;
+    width: 1110px !important;
+    margin-top: 52px;
+    display: inline;
+    text-align: justify;
+}
+h1{
+    text-align: center;
+    font-family: "Poppins-Regular";
+    font-size: 38px;
+    line-height: 58px;
+    margin-bottom: 64px;
+}
+.p-bemvindo{
+    font-family: "Poppins-Light";
+    font-size: 18px;
+    height: 193px;
+    margin-bottom: 65px;
+}
+.ver_mais_1{
+    width: 190px;
+    height: 46px;
+    border: none;
+    border-radius: 25px;
+    background-image: url("images/icons/VerMais1.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.ver_mais_1:hover{
+    background-image: url("images/icons/VerMais1Hover.svg");
+    color: white;
+}
+
+/* area destaques */
+
+.destaques{
+    margin: auto;
+    padding-bottom: 100px;
+}
+.card{
+    border: 1px solid #333333;
+    border-top: none;
+    height: 463px;
+}
+.card img{
+    width: 100%;
+    height: 255px;
+    object-fit: cover;
+}
+.card_container{
+    gap: 50px 25px;
+}
+.card-body{
+    padding: 23px 20px 40px 20px;
+    position: relative;
+}
+.ver_mais_2{
+    width: 125px;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    background-image: url("images/icons/VerMais2.svg");
+    top: 50px;
+
+}
+.ver_mais_2:hover{
+    background-image: url("images/icons/VerMais2Hover.svg");
+    color: white;
+}
+.btn_container{
+    position: absolute;
+    left: 110px;
+    top: 190px;
+}
+
+                            /* footer */
+
+/* contactos */
+
+#titulo_contactos{
+    color: white;
+    font-size: 43px;
+    margin-bottom: 88px;
+}
+
+#contactos{
+    background-image: url("images/FooterContactos.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+    height: 565px;
+    margin-top: 50px;
+}
+.icon_contactos{
+    background-color: rgba(0, 0, 0, 0);
+    width: 75px;
+    height: 75px;
+}
+.texto_contactos{
+    margin-top: 47px;
+    color: white;
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+}
+
+/* mapa */
+
+.mapa{
+    background-image: url("images/mapa.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 513px;
+    margin: 30px 0px;
+}
+
+/* bottom footer */
+
+#bottom_footer{
+    background-image: url("images/FooterFacebook.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 476px;
+    padding-top: 85px;
+}
+#facebook{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin: auto;
+}
+.texto_facebook{
+    color: white;
+    font-family: "Poppins-Regular";
+    font-size: 29px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.separador_footer{
+    border: 1px solid white;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.nav_bot{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: end;
+    margin-right: 75px;
+}
+.menus_bot{
+    color: #ffffff;
+    font-family: "Poppins-Regular";
+    font-size: 15px;
+    margin-right: 17px !important;
+    padding: 0px;
+    margin-bottom: 40px;
+}
+.menus_bot:hover{
+    color: #FC8B3B;
+}
+.copyright{
+    font-family: "Poppins-Regular";
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-left: 250px;
+}
+.copyright_text{
+    text-decoration: none;
+    color: white;
+}
+
+@media all and (width <=1090px){
+    .logo{
+        width: 170px ;
+        height: 46px ;
+        margin: 30px 30px;
+    }
+}
+
+@media all and (width <=768px){
+    .logo{
+        width: 165px ;
+        height: 40px ;
+        margin: 50px 10px 10px 30px;
+    }
+    .nav_top{
+        background-color: rgba(51, 51, 51, 0.75);
+        padding: 10px 0px;
+        margin-top: 20px;
+    }
+    .menus_top{
+        color: white;
+        font-family: "Poppins-Light";
+        margin-left: 20px;
+    }
+    .menus_top:hover{
+        font-family: "Poppins-Bold";
+        color: white;
+    }   
+
+    .separador_nav{
+        color: white;
+        border-bottom: 1px solid white;
+
+    }
+    .submenus:hover{
+        color: white;
+        font-family: "Poppins-Bold";
+        font-size: 16px;
+    }
+    .imagem_carousel{
+        width: 100% !important;
+        height: 259px !important;
+    }
+    .carousel-indicators button{
+        width: 35px !important;
+        height: 7px !important;
+        opacity: 1 !important;
+    }
+    .bem-vindo{
+        height: 669px;
+        width: 286px !important;
+        margin-top: 30px;
+        display: inline;
+        text-align: justify;
+    }
+    .separador{
+        width: 47px;
+        margin-bottom: 30px;
+    }
+    h1{
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    .p-bemvindo{
+        text-align: left;
+        color: #333333;
+        font-family: "Poppins-Light";
+        font-size: 13px;
+        height: 390px;
+        margin-bottom: 44px;
+    }
+    .ver_mais_1{
+        width: 105px;
+        height: 29px;
+        border: none;
+        border-radius: 20px;
+        background-image: url("images/icons/VerMais1.svg");
+        background-position: center;
+        font-size: 13px;
+    }
+    .ver_mais_1:hover{
+        background-image: url("images/icons/VerMais1Hover.svg");
+        color: white;
+    }
+    .destaques{
+        margin: auto;
+    }
+    .card{
+        width: 286px !important;
+    }
+    .card img{
+        width: 286px;
+        height: 208px;
+        object-fit: cover;
+    }
+    .card_container{
+        gap: 50px 25px;
+    }
+    .card-body{
+        padding: 23px 20px 40px 20px;
+        position: relative;
+    }
+    .ver_mais_2{
+        width: 100px;
+        height: 28px;
+        border-radius: 20px;
+    }
+    .btn_container{
+        position: absolute;
+        left: 90px;
+        top: 240px;
+    }
+    #separador_contactos{
+        width: 47px;
+        border-bottom: 3px solid #ffffff;
+        margin: auto;
+        margin-bottom: 22px;
+        margin-top: 40px;
+    }
+    #titulo_contactos{
+        color: white;
+        font-size: 28px;
+        margin-bottom: 36px;
+    }
+    .icon_contactos{
+        background-color: rgba(0, 0, 0, 0);
+        width: 52px;
+        height: 52px;
+    }
+    .texto_contactos{
+        margin-top: 19px;
+        margin-bottom: 44px;
+        font-size: 16px;
+    }
+    .mapa{
+        height: 323px;
+        margin: 11px 0px;
+    }
+    #bottom_footer{
+        height: 350px;
+        padding-top: 50px;
+    }
+    #facebook{
+        width: 60px;
+        height: 60px;
+    }
+    .texto_facebook{
+        margin-top: 22px;
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+    .copyright{
+        font-size: 13px;
+        text-align: center;
+        margin: auto;
+    }
+}
